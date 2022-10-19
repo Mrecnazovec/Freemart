@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <link rel="icon" href="./picture/logo.jpg">
-        <title>Freemart</title>
+        <title>Freemart/Categories</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="Sublime project">
@@ -12,9 +12,8 @@
         <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
         <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
         <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-        <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-        <link rel="stylesheet" type="text/css" href="styles/responsive.css">
-        <link rel="stylesheet" type="text/css" href="./styles/select.css">
+        <link rel="stylesheet" type="text/css" href="styles/categories.css">
+        <link rel="stylesheet" type="text/css" href="styles/categories_responsive.css">
     </head>
     <body>
         <div class="super_container">
@@ -149,12 +148,6 @@
                             </a>
                         </li>
                         <!-- <li>
-                            <select class="change-lang">
-                                <option value="ru" selected>Рус</option>
-                                <option value="uz">Uzb</option>
-                            </select>
-                        </li> -->
-                        <!-- <li>
                             <a href="#">
                                 <i class="fa fa-facebook" aria-hidden="true"></i>
                             </a>
@@ -169,149 +162,58 @@
             </div>
             <!-- Home -->
             <div class="home">
-                <div class="home_slider_container">
-                    <!-- Home Slider -->
-                    <div class="owl-carousel owl-theme home_slider">
-                        <!-- Slider Item -->
-                        <div class="owl-item home_slider_item">
-                            <div class="home_slider_background" style="background-image:url(picture/3.webp)"></div>
-                            <div class="home_slider_content_container">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="home_slider_content" data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
-                                                <div class="home_slider_title">БЕЗОПАСНОСТЬ ВАШЕГО УЮТА</div>
-                                                <div class="home_slider_subtitle">Предоставляем широкий ассортимент различных устройств по доступным ценам</div>
-                                                <div class="button button_light home_button">
-                                                    <a class="aloqa" href="./contact.html">Связаться</a>
-                                                </div>
-                                            </div>
+                <div class="home_container">
+                    <div class="home_background" style="background-image:url(images/categories.jpg)"></div>
+                    <div class="home_content_container">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="home_content">
+                                        <div class="home_title"><h1 class="home_title_text">Телефоны <span>.</span></h1>
+                                            
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Slider Item -->
-                        <!-- <div class="owl-item home_slider_item">
-                            <div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
-                            <div class="home_slider_content_container">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="home_slider_content" data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
-                                                <div class="home_slider_title">БЕЗОПАСТНОСТЬ ВАШЕГО УЮТА</div>
-                                                <div class="home_slider_subtitle">Предоставляем весь спектр электротехнических услуг, от проектирования до ввода в эксплуатацию. Безусловное качество и многолетняя гарантия. Видеонаблюдение, домофон,турникеты,контроль доступа, умный дом, зона WI-FI</div>
-                                                <div class="button button_light home_button">
-                                                    <a href="#">Cвязаться</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!-- Slider Item -->
-                        <div class="owl-item home_slider_item">
-                            <div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
-                            <div class="home_slider_content_container">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="home_slider_content" data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
-                                                <div class="home_slider_title home_slider_title_two">СТАРИНКИ И НОВИНКИ</div>
-                                                <div class="home_slider_subtitle home_slider_subtitle_two">Широки ассортимент начинается от старых мобильных телефонов и заканчивается последними новинками технологии</div>
-                                                <div class="button button_light home_button">
-                                                    <a class="aloqaTwo" href="./contact.html">Cвязаться</a>
-                                                </div>
-                                            </div>
+                                        <div class="home_text">
+                                            <p class="home_text_text">Здесь предоставлены наши модели телефонов, доступные в продажу.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Home Slider Dots -->
-                    <div class="home_slider_dots_container">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col">
-                                    <div class="home_slider_dots">
-                                        <ul id="home_slider_custom_dots" class="home_slider_custom_dots">
-                                            <li class="home_slider_custom_dot active">01.</li>
-                                            <li class="home_slider_custom_dot">02.</li>
-                                            <!-- <li class="home_slider_custom_dot">03.</li> -->
+                </div>
+            </div>
+            <!-- Products -->
+            <div class="products">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <!-- Product Sorting -->
+                            <div class="sorting_bar d-flex flex-md-row flex-column align-items-md-center justify-content-md-start">
+                                <div class="results">Показанно
+                                    <span>12</span> результатов
+                                </div>
+                                <div class="sorting_container ml-md-auto">
+                                    <div class="sorting">
+                                        <ul class="item_sorting">
+                                            <li>
+                                                <span class="sorting_text">Сортировка по:</span>
+                                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                <ul>
+                                                    <li class="product_sorting_btn" data-isotope-option='{ "sortBy": "original-order" }'>
+                                                        <span class="sortNone">Без сортировки</span>
+                                                    </li>
+                                                    <li class="product_sorting_btn" data-isotope-option='{ "sortBy": "price" }'>
+                                                        <span class="sortPrice">Цена</span>
+                                                    </li>
+                                                    <!-- <li class="product_sorting_btn" data-isotope-option='{ "sortBy": "stars" }'><span>Name</span></li> -->
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- Ads -->
-            <div class="avds">
-                <div class="avds_container d-flex flex-lg-row flex-column align-items-start justify-content-between">
-                    <div class="avds_small">
-                        <div class="avds_background" style="background-image:url(picture/10.webp)"></div>
-                        <div class="avds_small_inner">
-                            <!-- <div class="avds_discount_container">
-                                <img src="images/discount.png" alt="">
-                                <div>
-                                    <div class="avds_discount">
-                                        <div>20
-                                            <span>%</span>
-                                        </div>
-                                        <div>Discount</div>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <div class="avds_small_content">
-                                <div class="avds_title">Мобильные Телефоны</div>
-                                <div class="avds_link">
-                                    <a class="avds_more" href="categories.html">Посмотреть больше</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="avds_small">
-                        <div class="avds_background" style="background-image:url(picture/13.jpg)"></div>
-                        <div class="avds_small_inner">
-                            <!-- <div class="avds_discount_container">
-                                <img src="images/discount.png" alt="">
-                                <div>
-                                    <div class="avds_discount">
-                                        <div>20
-                                            <span>%</span>
-                                        </div>
-                                        <div>Discount</div>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <div class="avds_small_content">
-                                <div class="avds_title avds_title_two">Стационарные телефоны</div>
-                                <div class="avds_link">
-                                    <a class="avds_more_two" href="categories.html">Посмотреть больше</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="avds_large">
-                        <div class="avds_background" style="background-image:url(images/avds_large.jpg)"></div>
-                        <div class="avds_large_container">
-                            <div class="avds_large_content">
-                                <div class="avds_title">Professional Cameras</div>
-                                <div class="avds_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sed viver ra velit venenatis fermentum luctus.</div>
-                                <div class="avds_link avds_link_large">
-                                    <a href="categories.html">See More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <!-- Products -->
-            <div class="products">
-                <div class="container">
                     <div class="row">
                         <div class="col">
                             <div class="product_grid">
@@ -320,9 +222,7 @@
                                     <div class="product_image">
                                         <img src="./picture/1.webp" alt="">
                                     </div>
-                                    <!-- <div class="product_extra product_new">
-                                        <a href="categories.html">New</a>
-                                    </div> -->
+                                    <!-- <div class="product_extra product_new"><a href="categories.html">New</a></div> -->
                                     <div class="product_content">
                                         <div class="product_title">
                                             <h1>GEONEE</h1>
@@ -333,11 +233,9 @@
                                 <!-- Product -->
                                 <div class="product">
                                     <div class="product_image">
-                                        <img src="picture/2.jpg" alt="">
+                                        <img src="./picture/2.jpg" alt="">
                                     </div>
-                                    <!-- <div class="product_extra product_sale">
-                                        <a href="categories.html">Sale</a>
-                                    </div> -->
+                                    <!-- <div class="product_extra product_sale"><a href="categories.html">Sale</a></div> -->
                                     <div class="product_content">
                                         <div class="product_title">
                                             <h1>KECHAODA 888</h1>
@@ -348,7 +246,7 @@
                                 <!-- Product -->
                                 <div class="product">
                                     <div class="product_image">
-                                        <img src="picture/3.webp" alt="">
+                                        <img src="./picture/3.webp" alt="">
                                     </div>
                                     <div class="product_content">
                                         <div class="product_title">
@@ -360,7 +258,7 @@
                                 <!-- Product -->
                                 <div class="product">
                                     <div class="product_image">
-                                        <img src="picture/4.jpg" alt="">
+                                        <img src="./picture/4.jpg" alt="">
                                     </div>
                                     <div class="product_content">
                                         <div class="product_title">
@@ -386,9 +284,7 @@
                                     <div class="product_image">
                                         <img src="./picture/6.jpg" alt="">
                                     </div>
-                                    <!-- <div class="product_extra product_hot">
-                                        <a href="categories.html">Hot</a>
-                                    </div> -->
+                                    <!-- <div class="product_extra product_hot"><a href="categories.html">Hot</a></div> -->
                                     <div class="product_content">
                                         <div class="product_title">
                                             <h1>NOKIA 6310</h1>
@@ -413,9 +309,7 @@
                                     <div class="product_image">
                                         <img src="./picture/8.webp" alt="">
                                     </div>
-                                    <!-- <div class="product_extra product_sale">
-                                        <a href="categories.html">Hot</a>
-                                    </div> -->
+                                    <!-- <div class="product_extra product_sale"><a href="categories.html">Hot</a></div> -->
                                     <div class="product_content">
                                         <div class="product_title">
                                             <h1>NOVEY A80R</h1>
@@ -423,30 +317,70 @@
                                         <div class="product_price">539000 UZS</div>
                                     </div>
                                 </div>
+                                <!-- Product -->
+                                <div class="product">
+                                    <div class="product_image">
+                                        <img src="./picture/9.jpg" alt="">
+                                    </div>
+                                    <!-- <div class="product_extra product_sale"><a href="categories.html">Hot</a></div> -->
+                                    <div class="product_content">
+                                        <div class="product_title">
+                                            <h1>NOVEY T300</h1>
+                                        </div>
+                                        <div class="product_price">450000 UZS</div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+                                <div class="product">
+                                    <div class="product_image">
+                                        <img src="./picture/10.webp" alt="">
+                                    </div>
+                                    <!-- <div class="product_extra product_sale"><a href="categories.html">Hot</a></div> -->
+                                    <div class="product_content">
+                                        <div class="product_title">
+                                            <h1>SAMSUNG U365</h1>
+                                        </div>
+                                        <div class="product_price">399000 UZS</div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+                                <div class="product">
+                                    <div class="product_image">
+                                        <img src="picture/11.jpg" alt="">
+                                    </div>
+                                    <!-- <div class="product_extra product_sale"><a href="categories.html">Hot</a></div> -->
+                                    <div class="product_content">
+                                        <div class="product_title">
+                                            <h1>Nokia 3310</h1>
+                                        </div>
+                                        <div class="product_price">389000 UZS</div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+                                <div class="product">
+                                    <div class="product_image">
+                                        <img src="./picture/12.webp" alt="">
+                                    </div>
+                                    <!-- <div class="product_extra product_sale"><a href="categories.html">Hot</a></div> -->
+                                    <div class="product_content">
+                                        <div class="product_title">
+                                            <h1>CORN F80</h1>
+                                        </div>
+                                        <div class="product_price">450000 UZS</div>
+                                    </div>
+                                </div>
                             </div>
+                            <!-- <div class="product_pagination">
+						<ul>
+							<li class="active"><a href="#">01.</a></li>
+							<li><a href="#">02.</a></li>
+							<li><a href="#">03.</a></li>
+						</ul>
+					</div> -->
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Ad -->
-            <!-- <div class="avds_xl">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="avds_xl_container clearfix">
-                                <div class="avds_xl_background" style="background-image:url(images/avds_xl.jpg)"></div>
-                                <div class="avds_xl_content">
-                                    <div class="avds_title">Amazing Devices</div>
-                                    <div class="avds_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus.</div>
-                                    <div class="avds_link avds_xl_link">
-                                        <a href="categories.html">See More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
             <!-- Icon Boxes -->
             <div class="icon_boxes">
                 <div class="container">
@@ -461,8 +395,8 @@
                                     Бесплатная доставка по всему Узбекистану
                                 </div>
                                 <!-- <div class="icon_box_text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie.</p>
-                                </div> -->
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie.</p>
+						</div> -->
                             </div>
                         </div>
                         <!-- Icon Box -->
@@ -473,8 +407,8 @@
                                 </div>
                                 <div class="icon_box_title icon_box_title_two">Бесплатный возврат</div>
                                 <!-- <div class="icon_box_text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie.</p>
-                                </div> -->
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie.</p>
+						</div> -->
                             </div>
                         </div>
                         <!-- Icon Box -->
@@ -485,41 +419,38 @@
                                 </div>
                                 <div class="icon_box_title icon_box_title_three">Круглосуточная быстрая поддержка</div>
                                 <!-- <div class="icon_box_text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie.</p>
-                                </div> -->
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie.</p>
+						</div> -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Newsletter -->
-            <!-- <div class="newsletter">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="newsletter_border"></div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 offset-lg-2">
-                            <div class="newsletter_content text-center">
-                                <div class="newsletter_title">Subscribe to our newsletter</div>
-                                <div class="newsletter_text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros</p>
-                                </div>
-                                <div class="newsletter_form_container">
-                                    <form action="#" id="newsletter_form" class="newsletter_form">
-                                        <input type="email" class="newsletter_input" required="required">
-                                        <button class="newsletter_button trans_200">
-                                            <span>Subscribe</span>
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+            <!-- 
+	<div class="newsletter">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="newsletter_border"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<div class="newsletter_content text-center">
+						<div class="newsletter_title">Subscribe to our newsletter</div>
+						<div class="newsletter_text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros</p></div>
+						<div class="newsletter_form_container">
+							<form action="#" id="newsletter_form" class="newsletter_form">
+								<input type="email" class="newsletter_input" required="required">
+								<button class="newsletter_button trans_200"><span>Subscribe</span></button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
             <!-- Footer -->
             <div class="footer_overlay"></div>
             <footer class="footer">
@@ -529,7 +460,7 @@
                         <div class="col">
                             <div class="footer_content d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
                                 <div class="footer_logo">
-                                    <a class="footer_logo_go" href="#">Freemart.</a>
+                                    <a class="footer_logo_go" href="./index.html">Freemart.</a>
                                 </div>
                                 <div class="copyright ml-auto mr-auto">
                                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -537,7 +468,8 @@
                                     <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with
                                     <i class="fa fa-heart-o" aria-hidden="true"></i> by
                                     <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
-                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                </div>
                                 <div class="footer_social ml-lg-auto">
                                     <ul>
                                         <li>
@@ -580,8 +512,8 @@
         <script src="plugins/Isotope/isotope.pkgd.min.js"></script>
         <script src="plugins/easing/easing.js"></script>
         <script src="plugins/parallax-js-master/parallax.min.js"></script>
-        <script src="js/custom.js"></script>
+        <script src="js/categories.js"></script>
         <script src="./js/language.js"></script>
-        <script src="./js/languageChange.js"></script>
+        <script src="./js/languageChangeCategoris.js"></script>
     </body>
 </html>
