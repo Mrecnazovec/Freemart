@@ -1,0 +1,24 @@
+.modal .product {
+    width: 100%;
+}
+.button_modal{
+    box-shadow: none !important;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    background-color: black !important;
+    color: white !important;
+
+}
+.button_modal_close {
+    box-shadow: none !important;
+    border: none;
+}
+.modal .product_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal .product_image img {
+    height: fit-content;
+}
